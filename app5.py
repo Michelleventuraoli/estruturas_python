@@ -61,3 +61,15 @@ else:
 print("Acabou")
 
 
+import os
+
+os.system("cls")
+
+fruits = ['maçã', 'banana', 'pera', 'uva', 'morango']
+
+print(fruits)
+
+for fruit in fruits:
+    print(f' • {fruit};')
+
+print('\nAcabou')
